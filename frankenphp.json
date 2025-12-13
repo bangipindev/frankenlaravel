@@ -1,0 +1,7 @@
+{
+  "apps":{
+    "listen": "0.0.0.0:8000",
+    "root": "/app/public",
+    "workers": 4
+  }
+}
