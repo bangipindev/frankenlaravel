@@ -1,901 +1,617 @@
 <div>
-    <div class="main_content_iner overly_inner ">
-        <div class="container-fluid p-0 ">
-            <div class="row">
-                <div class="col-12">
-                    <div class="page_title_box d-flex align-items-center justify-content-between">
-                        <div class="page_title_left">
-                            <h3 class="f_s_30 f_w_700 text_white">Dashboard</h3>
-                            <ol class="breadcrumb page_bradcam mb-0">
-                                <li class="breadcrumb-item">
-                                    <a href="javascript:void(0);">Salessa </a>
+    <div class="content relative transition-[margin,width] duration-100 px-5 pt-[66px] pb-16 before:content-[''] before:bg-gradient-to-b before:from-theme-1 before:to-theme-2 before:h-screen before:w-full before:fixed before:top-0 before:-ml-5 after:content-[''] after:bg-gradient-to-b after:from-slate-100 after:to-slate-50 after:h-screen after:w-full after:fixed after:top-0 after:-ml-5 after:xl:rounded-[1.2rem/1.7rem] content--compact xl:ml-[275px] [&.content--compact]:xl:ml-[91px]">
+        <div class="container relative z-10 mt-[55px]">
+            <div class="grid grid-cols-12 gap-x-6 gap-y-10">
+                <div class="col-span-12">
+                    <div>
+                        <div class="flex flex-col gap-y-3 md:h-10 md:flex-row md:items-center">
+                            <div class="text-base font-medium group-[.mode--light]:text-white">
+                                Project Statistic
+                            </div>
+                            <ul data-tw-merge="" role="tablist" class="p-0.5 border dark:border-darkmode-400 flex box w-auto rounded-[0.6rem] border-slate-200 bg-white group-[.mode--light]:!border-transparent group-[.mode--light]:!bg-white/[0.12] md:ml-auto">
+                                <li id="example-1-tab" data-tw-merge="" role="presentation" class="focus-visible:outline-none flex-1 bg-slate-50 first:rounded-l-[0.6rem] last:rounded-r-[0.6rem] group-[.mode--light]:bg-transparent [&_button.active]:text-current group-[.mode--light]:[&_button.active]:border-transparent group-[.mode--light]:[&_button.active]:bg-white/[0.12]">
+                                    <button data-tw-merge="" data-tw-target="#example-1" role="tab" class="cursor-pointer block appearance-none px-3 border border-transparent transition-colors dark:text-slate-400 [&.active]:text-slate-700 py-1.5 dark:border-transparent [&.active]:border [&.active]:shadow-sm [&.active]:font-medium [&.active]:border-slate-200 [&.active]:bg-white [&.active]:dark:text-slate-300 [&.active]:dark:bg-darkmode-400 [&.active]:dark:border-darkmode-400 active w-full whitespace-nowrap rounded-[0.6rem] text-slate-500 group-[.mode--light]:text-slate-200 md:w-24">Daily</button>
                                 </li>
-                                <li class="breadcrumb-item">
-                                    <a href="javascript:void(0);">Dashboard</a>
+                                <li id="example-2-tab" data-tw-merge="" role="presentation" class="focus-visible:outline-none flex-1 bg-slate-50 first:rounded-l-[0.6rem] last:rounded-r-[0.6rem] group-[.mode--light]:bg-transparent [&_button.active]:text-current group-[.mode--light]:[&_button.active]:border-transparent group-[.mode--light]:[&_button.active]:bg-white/[0.12]">
+                                    <button data-tw-merge="" data-tw-target="#example-2" role="tab" class="cursor-pointer block appearance-none px-3 border border-transparent transition-colors dark:text-slate-400 [&.active]:text-slate-700 py-1.5 dark:border-transparent [&.active]:border [&.active]:shadow-sm [&.active]:font-medium [&.active]:border-slate-200 [&.active]:bg-white [&.active]:dark:text-slate-300 [&.active]:dark:bg-darkmode-400 [&.active]:dark:border-darkmode-400 w-full whitespace-nowrap rounded-[0.6rem] text-slate-500 group-[.mode--light]:text-slate-200 md:w-24">Monthly</button>
                                 </li>
-                                <li class="breadcrumb-item active">Sales</li>
-                            </ol>
+                                <li id="example-3-tab" data-tw-merge="" role="presentation" class="focus-visible:outline-none flex-1 bg-slate-50 first:rounded-l-[0.6rem] last:rounded-r-[0.6rem] group-[.mode--light]:bg-transparent [&_button.active]:text-current group-[.mode--light]:[&_button.active]:border-transparent group-[.mode--light]:[&_button.active]:bg-white/[0.12]">
+                                    <button data-tw-merge="" data-tw-target="#example-3" role="tab" class="cursor-pointer block appearance-none px-3 border border-transparent transition-colors dark:text-slate-400 [&.active]:text-slate-700 py-1.5 dark:border-transparent [&.active]:border [&.active]:shadow-sm [&.active]:font-medium [&.active]:border-slate-200 [&.active]:bg-white [&.active]:dark:text-slate-300 [&.active]:dark:bg-darkmode-400 [&.active]:dark:border-darkmode-400 w-full whitespace-nowrap rounded-[0.6rem] text-slate-500 group-[.mode--light]:text-slate-200 md:w-24">Yearly</button>
+                                </li>
+                            </ul>
                         </div>
-                        <a href="#" class="white_btn3">Create Report</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-lg-8 card_height_100">
-                    <div class="white_card mb_20">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Revenue</h3>
-                                </div>
-                                <div class="float-lg-right float-none sales_renew_btns justify-content-end">
-                                    <ul class="nav">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">This Week</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Last Week</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Last Month</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body" style="height: 286px;">
-                            <canvas id="bar"></canvas>
-                        </div>
-                    </div>
-                    <div class="white_card mb_20">
-                        <div class="white_card_body renew_report_card d-flex align-items-center justify-content-between flex-wrap">
-                            <div class="renew_report_left">
-                                <h4 class="f_s_19 f_w_600 color_theme2 mb-0">Download your earnings report</h4>
-                                <p class="color_gray2 f_s_12 f_w_600">There are many variations of passages.</p>
-                            </div>
-                            <div class="create_report_btn">
-                                <a href="#" class="btn_1 mt-1 mb-1">Create Report</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 card_height_100 mb_20">
-                    <div class="white_card">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Total Sales Unit</h3>
-                                </div>
-                                <div class="header_more_tool">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            <i class="ti-more-alt"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-eye"></i> Action </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-trash"></i> Delete </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fas fa-edit"></i> Edit </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-printer"></i> Print </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i> Download </a>
+                        <div class="tab-content box box--stacked mt-3.5">
+                            <div data-transition="" data-selector=".active" data-enter="transition-[visibility,opacity] ease-linear duration-150" data-enter-from="!p-0 !h-0 overflow-hidden invisible opacity-0" data-enter-to="visible opacity-100" data-leave="transition-[visibility,opacity] ease-linear duration-150" data-leave-from="visible opacity-100" data-leave-to="!p-0 !h-0 overflow-hidden invisible opacity-0" id="example-1" role="tabpanel" aria-labelledby="example-1-tab" class="tab-pane active flex flex-col gap-2 p-1.5 leading-relaxed xl:flex-row">
+                                <div class="grid w-full grid-cols-4 gap-2">
+                                    <div class="box relative col-span-4 flex-1 overflow-hidden rounded-[0.6rem] border-0 border-slate-200/60 bg-slate-50 bg-gradient-to-b from-theme-2/90 to-theme-1/[0.85] p-5 before:absolute before:right-0 before:top-0 before:-mr-[62%] before:h-[130%] before:w-full before:rotate-45 before:bg-gradient-to-b before:from-black/[0.15] before:to-transparent before:content-[''] sm:col-span-2 xl:col-span-1">
+                                        <div class="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/10">
+                                            <i data-tw-merge="" data-lucide="database" class="stroke-[1] h-6 w-6 fill-white/10 text-white"></i>
+                                        </div>
+                                        <div class="mt-12 flex items-center">
+                                            <div class="text-2xl font-medium text-white">
+                                                247,220
+                                            </div>
+                                            <div class="ml-3.5 flex items-center rounded-full border border-success/50 bg-success/50 py-[2px] pl-[7px] pr-1 text-xs font-medium text-white/90">
+                                                12%
+                                                <i data-tw-merge="" data-lucide="chevron-up" class="ml-px h-4 w-4 stroke-[1.5]"></i>
+                                            </div>
+                                        </div>
+                                        <div class="mt-1 text-base text-white/70">
+                                            Customer Engagement
+                                        </div>
+                                        <div data-tw-merge="" data-tw-placement="bottom-end" class="dropdown absolute right-0 top-0 mr-5 mt-5"><button data-tw-toggle="dropdown" aria-expanded="false" class="cursor-pointer h-5 w-5 text-slate-500"><i data-tw-merge="" data-lucide="more-vertical" class="stroke-[1] h-6 w-6 fill-white/70 stroke-white/70"></i>
+                                            </button>
+                                            <div data-transition="" data-selector=".show" data-enter="transition-all ease-linear duration-150" data-enter-from="absolute !mt-5 invisible opacity-0 translate-y-1" data-enter-to="!mt-1 visible opacity-100 translate-y-0" data-leave="transition-all ease-linear duration-150" data-leave-from="!mt-1 visible opacity-100 translate-y-0" data-leave-to="absolute !mt-5 invisible opacity-0 translate-y-1" class="dropdown-menu absolute z-[9999] hidden">
+                                                <div data-tw-merge="" class="dropdown-content rounded-md border-transparent bg-white p-2 shadow-[0px_3px_10px_#00000017] dark:border-transparent dark:bg-darkmode-600 w-40">
+                                                    <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="copy" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                        Copy
+                                                        Link</a>
+                                                    <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="trash" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                        Delete</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="relative col-span-4 flex-1 overflow-hidden rounded-[0.6rem] border bg-slate-50/50 p-5 sm:col-span-2 xl:col-span-1">
+                                        <div class="flex h-12 w-12 items-center justify-center rounded-full border border-primary/10 bg-primary/10">
+                                            <i data-tw-merge="" data-lucide="app-window" class="stroke-[1] h-6 w-6 fill-primary/10 text-primary"></i>
+                                        </div>
+                                        <div class="mt-12 flex items-center">
+                                            <div class="text-2xl font-medium">124,625</div>
+                                            <div class="ml-3.5 flex items-center rounded-full border border-danger/50 bg-danger/70 py-[2px] pl-[7px] pr-1 text-xs font-medium text-white/90">
+                                                3%
+                                                <i data-tw-merge="" data-lucide="chevron-down" class="ml-px h-4 w-4 stroke-[1.5]"></i>
+                                            </div>
+                                        </div>
+                                        <div class="mt-1 text-base text-slate-500">
+                                            Lead Generation
+                                        </div>
+                                        <div data-tw-merge="" data-tw-placement="bottom-end" class="dropdown absolute right-0 top-0 mr-5 mt-5"><button data-tw-toggle="dropdown" aria-expanded="false" class="cursor-pointer h-5 w-5 text-slate-500"><i data-tw-merge="" data-lucide="more-vertical" class="stroke-[1] h-6 w-6 fill-slate-400/70 stroke-slate-400/70"></i>
+                                            </button>
+                                            <div data-transition="" data-selector=".show" data-enter="transition-all ease-linear duration-150" data-enter-from="absolute !mt-5 invisible opacity-0 translate-y-1" data-enter-to="!mt-1 visible opacity-100 translate-y-0" data-leave="transition-all ease-linear duration-150" data-leave-from="!mt-1 visible opacity-100 translate-y-0" data-leave-to="absolute !mt-5 invisible opacity-0 translate-y-1" class="dropdown-menu absolute z-[9999] hidden">
+                                                <div data-tw-merge="" class="dropdown-content rounded-md border-transparent bg-white p-2 shadow-[0px_3px_10px_#00000017] dark:border-transparent dark:bg-darkmode-600 w-40">
+                                                    <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="copy" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                        Copy
+                                                        Link</a>
+                                                    <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="trash" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                        Delete</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="relative col-span-4 flex-1 overflow-hidden rounded-[0.6rem] border bg-slate-50/50 p-5 sm:col-span-2 xl:col-span-1">
+                                        <div class="flex h-12 w-12 items-center justify-center rounded-full border border-info/10 bg-info/10">
+                                            <i data-tw-merge="" data-lucide="box" class="stroke-[1] h-6 w-6 fill-info/10 text-info"></i>
+                                        </div>
+                                        <div class="mt-12 flex items-center">
+                                            <div class="text-2xl font-medium">749,220</div>
+                                            <div class="ml-3.5 flex items-center rounded-full border border-success/50 bg-success/70 py-[2px] pl-[7px] pr-1 text-xs font-medium text-white/90">
+                                                4%
+                                                <i data-tw-merge="" data-lucide="chevron-up" class="ml-px h-4 w-4 stroke-[1.5]"></i>
+                                            </div>
+                                        </div>
+                                        <div class="mt-1 text-base text-slate-500">
+                                            Support Tickets
+                                        </div>
+                                        <div data-tw-merge="" data-tw-placement="bottom-end" class="dropdown absolute right-0 top-0 mr-5 mt-5"><button data-tw-toggle="dropdown" aria-expanded="false" class="cursor-pointer h-5 w-5 text-slate-500"><i data-tw-merge="" data-lucide="more-vertical" class="stroke-[1] h-6 w-6 fill-slate-400/70 stroke-slate-400/70"></i>
+                                            </button>
+                                            <div data-transition="" data-selector=".show" data-enter="transition-all ease-linear duration-150" data-enter-from="absolute !mt-5 invisible opacity-0 translate-y-1" data-enter-to="!mt-1 visible opacity-100 translate-y-0" data-leave="transition-all ease-linear duration-150" data-leave-from="!mt-1 visible opacity-100 translate-y-0" data-leave-to="absolute !mt-5 invisible opacity-0 translate-y-1" class="dropdown-menu absolute z-[9999] hidden">
+                                                <div data-tw-merge="" class="dropdown-content rounded-md border-transparent bg-white p-2 shadow-[0px_3px_10px_#00000017] dark:border-transparent dark:bg-darkmode-600 w-40">
+                                                    <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="copy" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                        Copy
+                                                        Link</a>
+                                                    <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="trash" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                        Delete</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="relative col-span-4 flex-1 overflow-hidden rounded-[0.6rem] border bg-slate-50/50 p-5 sm:col-span-2 xl:col-span-1">
+                                        <div class="flex h-12 w-12 items-center justify-center rounded-full border border-primary/10 bg-primary/10">
+                                            <i data-tw-merge="" data-lucide="layout" class="stroke-[1] h-6 w-6 fill-primary/10 text-primary"></i>
+                                        </div>
+                                        <div class="mt-12 flex items-center">
+                                            <div class="text-2xl font-medium">273,235</div>
+                                            <div class="ml-3.5 flex items-center rounded-full border border-success/50 bg-success/70 py-[2px] pl-[7px] pr-1 text-xs font-medium text-white/90">
+                                                9%
+                                                <i data-tw-merge="" data-lucide="chevron-up" class="ml-px h-4 w-4 stroke-[1.5]"></i>
+                                            </div>
+                                        </div>
+                                        <div class="mt-1 text-base text-slate-500">
+                                            Pipeline Management
+                                        </div>
+                                        <div data-tw-merge="" data-tw-placement="bottom-end" class="dropdown absolute right-0 top-0 mr-5 mt-5"><button data-tw-toggle="dropdown" aria-expanded="false" class="cursor-pointer h-5 w-5 text-slate-500"><i data-tw-merge="" data-lucide="more-vertical" class="stroke-[1] h-6 w-6 fill-slate-400/70 stroke-slate-400/70"></i>
+                                            </button>
+                                            <div data-transition="" data-selector=".show" data-enter="transition-all ease-linear duration-150" data-enter-from="absolute !mt-5 invisible opacity-0 translate-y-1" data-enter-to="!mt-1 visible opacity-100 translate-y-0" data-leave="transition-all ease-linear duration-150" data-leave-from="!mt-1 visible opacity-100 translate-y-0" data-leave-to="absolute !mt-5 invisible opacity-0 translate-y-1" class="dropdown-menu absolute z-[9999] hidden">
+                                                <div data-tw-merge="" class="dropdown-content rounded-md border-transparent bg-white p-2 shadow-[0px_3px_10px_#00000017] dark:border-transparent dark:bg-darkmode-600 w-40">
+                                                    <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="copy" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                        Copy
+                                                        Link</a>
+                                                    <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="trash" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                        Delete</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body p-0">
-                            <div class="card_container">
-                                <div id="platform_type_dates_donut" style="height:280px"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sales_unit_footer d-flex justify-content-between">
-                        <div class="single_sales">
-                            <p>This Month Revenue</p>
-                            <h3>$57k</h3>
-                            <p class="d-flex align-items-center">
-                                <i class="ti-arrow-up"></i>
-                                <span> 14.5%</span> Up From Last Month
-                            </p>
-                        </div>
-                        <div class="single_sales disable_sales">
-                            <p>This Month Revenue</p>
-                            <h3>$14k</h3>
-                            <p class="d-flex align-items-center">
-                                <i class="ti-arrow-up"></i>
-                                <span> 14.5%</span> Up From Last Month
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="white_card card_height_100 mb_20">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Daily Sales</h3>
-                                </div>
-                                <div class="header_more_tool">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            <i class="ti-more-alt"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-eye"></i> Action </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-trash"></i> Delete </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fas fa-edit"></i> Edit </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-printer"></i> Print </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i> Download </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body">
-                            <div id="chart-currently"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="white_card card_height_100 mb_20">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Summary</h3>
-                                </div>
-                                <div class="header_more_tool">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            <i class="ti-more-alt"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-eye"></i> Action </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-trash"></i> Delete </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fas fa-edit"></i> Edit </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-printer"></i> Print </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i> Download </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body mt_30">
-                            <div id="bar1" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="25"></span>
-                            </div>
-                            <div id="bar2" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="75"></span>
-                            </div>
-                            <div id="bar3" class="barfiller mb-0">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="34"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="white_card card_height_100 mb_20">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Total order</h3>
-                                </div>
-                                <div class="float-lg-right float-none sales_renew_btns justify-content-end">
-                                    <ul class="nav">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">Today</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">This week</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body d-flex align-items-center" style="height:140px">
-                            <h4 class="f_w_900 f_s_60 mb-0 me-2">356</h4>
-                            <div class="w-100" style="height:100px">
-                                <canvas width="100%" id="page_views"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="white_card card_height_100  mb_20">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Transaction</h3>
-                                </div>
-                                <div class="header_more_tool">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            <i class="ti-more-alt"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-eye"></i> Action </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-trash"></i> Delete </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fas fa-edit"></i> Edit </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-printer"></i> Print </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i> Download </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body">
-                            <div class="table-responsive">
-                                <table class="table bayer_table m-0">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <img class="byder_thumb wh_56" src="{{ asset('themes/img/Payment/1.png') }}" alt="">
-                                            </td>
-                                            <td>
-                                                <div class="payment_gatway">
-                                                    <h5 class="byer_name  f_s_16 f_w_700 color_theme">Electricity Bill</h5>
-                                                    <p class="color_gray f_s_12 f_w_700 ">10 Aug 03:00PM</p>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="payment_gatway text-end">
-                                                    <h5 class="byer_name  f_s_16 f_w_700 text_color_4">- $ 1254.00</h5>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <img class="byder_thumb wh_56" src="{{ asset('themes/img/Payment/1.png') }}" alt="">
-                                            </td>
-                                            <td>
-                                                <div class="payment_gatway">
-                                                    <h5 class="byer_name  f_s_16 f_w_700 color_theme">Showroom Rent</h5>
-                                                    <p class="color_gray f_s_12 f_w_700 ">10 Aug 03:00PM</p>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="payment_gatway text-end">
-                                                    <h5 class="byer_name  f_s_16 f_w_700 text_color_5">+ $ 1254.00</h5>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <img class="byder_thumb wh_56" src="{{ asset('themes/img/Payment/1.png') }}" alt="">
-                                            </td>
-                                            <td>
-                                                <div class="payment_gatway">
-                                                    <h5 class="byer_name  f_s_16 f_w_700 color_theme">Iron Costing</h5>
-                                                    <p class="color_gray f_s_12 f_w_700 ">10 Aug 03:00PM</p>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="payment_gatway text-end">
-                                                    <h5 class="byer_name  f_s_16 f_w_700 text_color_5">+ $ 1254.00</h5>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <img class="byder_thumb wh_56" src="{{ asset('themes/img/Payment/1.png') }}" alt="">
-                                            </td>
-                                            <td>
-                                                <div class="payment_gatway">
-                                                    <h5 class="byer_name  f_s_16 f_w_700 color_theme">Packeging Cost</h5>
-                                                    <p class="color_gray f_s_12 f_w_700 ">10 Aug 03:00PM</p>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="payment_gatway text-end">
-                                                    <h5 class="byer_name  f_s_16 f_w_700 text_color_5">+ $ 1254.00</h5>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="white_card card_height_100  mb_20">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">News & Update</h3>
-                                </div>
-                                <div class="single_wrap_input">
-                                    <select class="nice_Select2 wide" name="" id="">
-                                        <option value="1">Today</option>
-                                        <option value="1">Tomorrow</option>
-                                        <option value="1">Yesterday</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body">
-                            <div class="single_update_news">
-                                <h5 class="byer_name  f_s_16 f_w_600 color_theme2">36% off For pixel lights Couslations Types.</h5>
-                                <p class="color_gray f_s_12 f_w_700 ">Sorem Kpsum is simply of the printing..</p>
-                            </div>
-                            <div class="single_update_news">
-                                <h5 class="byer_name  f_s_16 f_w_600 color_theme2">We are produce new product this</h5>
-                                <p class="color_gray f_s_12 f_w_700 ">Gorem Rpsum is simply text of the printing...</p>
-                            </div>
-                            <div class="single_update_news">
-                                <h5 class="byer_name  f_s_16 f_w_600 color_theme2">50% off For COVID Couslations Types.</h5>
-                                <p class="color_gray f_s_12 f_w_700 ">EoremHpsum is simply dummy...</p>
-                            </div>
-                            <div class="load_more_button text-center mt_30">
-                                <a class="theme_text_btn d-flex align-items-center justify-content-center" href="#">Load more <i class="ti-angle-down f_s_12 ms-2"></i>
+                                <a class="flex flex-col items-center justify-center rounded-[0.6rem] border border-dashed border-slate-300/80 bg-slate-50 p-5 text-slate-400/80 hover:bg-slate-50 xl:w-20 [&:hover_svg]:rotate-180" href="#">
+                                    <i data-tw-merge="" data-lucide="plus-square" class="stroke-[1] h-6 w-6 transform transition-transform"></i>
                                 </a>
                             </div>
+                            <div data-transition="" data-selector=".active" data-enter="transition-[visibility,opacity] ease-linear duration-150" data-enter-from="!p-0 !h-0 overflow-hidden invisible opacity-0" data-enter-to="visible opacity-100" data-leave="transition-[visibility,opacity] ease-linear duration-150" data-leave-from="visible opacity-100" data-leave-to="!p-0 !h-0 overflow-hidden invisible opacity-0" id="example-2" role="tabpanel" aria-labelledby="example-2-tab" class="tab-pane p-5 leading-relaxed"></div>
+                            <div data-transition="" data-selector=".active" data-enter="transition-[visibility,opacity] ease-linear duration-150" data-enter-from="!p-0 !h-0 overflow-hidden invisible opacity-0" data-enter-to="visible opacity-100" data-leave="transition-[visibility,opacity] ease-linear duration-150" data-leave-from="visible opacity-100" data-leave-to="!p-0 !h-0 overflow-hidden invisible opacity-0" id="example-3" role="tabpanel" aria-labelledby="example-3-tab" class="tab-pane p-5 leading-relaxed"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="white_card card_height_100  mb_20">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Account Info</h3>
+                <div class="col-span-12 flex flex-col gap-y-10 xl:col-span-6">
+                    <div>
+                        <div class="flex flex-col gap-y-3 md:h-10 md:flex-row md:items-center">
+                            <div class="text-base font-medium">Contact Details</div>
+                        </div>
+                        <div class="box box--stacked mt-3.5 p-5">
+                            <div class="mb-5 flex flex-col items-center gap-y-2 border-b border-dashed border-slate-300/70 pb-5 sm:flex-row">
+                                <div class="image-fit h-14 w-14 overflow-hidden rounded-full border-[3px] border-slate-200/70">
+                                    <img src="{{ asset('theme/dist/images/users/user1-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template">
                                 </div>
-                                <div class="header_more_tool">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            <i class="ti-more-alt"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-eye"></i> Action </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-trash"></i> Delete </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fas fa-edit"></i> Edit </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-printer"></i> Print </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i> Download </a>
+                                <div class="text-center sm:ml-4 sm:text-left">
+                                    <div class="text-base font-medium">
+                                        Tom Hanks
+                                    </div>
+                                    <div class="mt-0.5 text-slate-500">
+                                        Sales Manager
+                                    </div>
+                                </div>
+                                <div class="flex items-center rounded-full border border-success/10 bg-success/10 px-3 py-1 font-medium text-success sm:ml-auto">
+                                    <div class="mr-2 h-1.5 w-1.5 rounded-full border border-success/50 bg-success/50"></div>
+                                    High priority
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-y-3 text-center sm:flex-row">
+                                <div class="flex-1 border-dashed last:border-0 sm:border-r">
+                                    <div class="text-slate-500">Leads Generated</div>
+                                    <div class="mt-1 flex items-center justify-center">
+                                        <div class="text-base font-medium">2,176</div>
+                                        <div class="-mr-1 ml-2 flex items-center text-xs text-success">
+                                            11%
+                                            <i data-tw-merge="" data-lucide="chevron-up" class="stroke-[1] ml-px h-4 w-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-1 border-dashed last:border-0 sm:border-r">
+                                    <div class="text-slate-500">Deals Closed</div>
+                                    <div class="mt-1 flex items-center justify-center">
+                                        <div class="text-base font-medium">2,027</div>
+                                        <div class="-mr-1 ml-2 flex items-center text-xs text-success">
+                                            2%
+                                            <i data-tw-merge="" data-lucide="chevron-up" class="stroke-[1] ml-px h-4 w-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-1 border-dashed last:border-0 sm:border-r">
+                                    <div class="text-slate-500">Meetings Scheduled</div>
+                                    <div class="mt-1 flex items-center justify-center">
+                                        <div class="text-base font-medium">342</div>
+                                        <div class="-mr-1 ml-2 flex items-center text-xs text-danger">
+                                            4%
+                                            <i data-tw-merge="" data-lucide="chevron-down" class="stroke-[1] ml-px h-4 w-4"></i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="white_card_body">
-                            <div class="monthly_plan_wraper">
-                                <div class="single_plan d-flex align-items-center justify-content-between">
-                                    <h5 class="color_theme2 f_s_14 f_w_700 mb-0">Monthly Plan</h5>
-                                    <span class="color_gray2 f_s_16 f_w_700">$25</span>
+                    </div>
+                    <div>
+                        <div class="flex flex-col gap-y-3 md:h-10 md:flex-row md:items-center">
+                            <div class="text-base font-medium">Invite Team Member</div>
+                        </div>
+                        <div class="box box--stacked mt-3.5 p-5">
+                            <div class="mb-5 border-b border-dashed border-slate-300/70 pb-5">
+                                <div>Everyone at project can access this file</div>
+                                <div class="relative mt-3">
+                                    <input data-tw-merge="" type="text" placeholder="everyone@gmail.com" class="disabled:bg-slate-100 disabled:cursor-not-allowed dark:disabled:bg-darkmode-800/50 dark:disabled:border-transparent [&[readonly]]:bg-slate-100 [&[readonly]]:cursor-not-allowed [&[readonly]]:dark:bg-darkmode-800/50 [&[readonly]]:dark:border-transparent transition duration-200 ease-in-out w-full text-sm border-slate-200 shadow-sm rounded-md placeholder:text-slate-400/90 focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus:border-primary focus:border-opacity-40 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 dark:placeholder:text-slate-500/80 [&[type='file']]:border file:mr-4 file:py-2 file:px-4 file:rounded-l-md file:border-0 file:border-r-[1px] file:border-slate-100/10 file:text-sm file:font-semibold file:bg-slate-100 file:text-slate-500/70 hover:file:bg-200 group-[.form-inline]:flex-1 group-[.input-group]:rounded-none group-[.input-group]:[&:not(:first-child)]:border-l-transparent group-[.input-group]:first:rounded-l group-[.input-group]:last:rounded-r group-[.input-group]:z-10 sm:py-3">
+                                    <button data-tw-merge="" class="transition duration-200 border shadow-sm inline-flex items-center justify-center rounded-md font-medium cursor-pointer focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus-visible:outline-none dark:focus:ring-slate-700 dark:focus:ring-opacity-50 [&:hover:not(:disabled)]:bg-opacity-90 [&:hover:not(:disabled)]:border-opacity-90 [&:not(button)]:text-center disabled:opacity-70 disabled:cursor-not-allowed text-xs py-1.5 px-2 dark:border-primary inset-y-0 right-0 my-auto mr-2 mt-2 h-9 w-full border-primary/20 bg-primary/10 pl-3.5 pr-4 text-primary hover:bg-primary/20 sm:absolute sm:mt-auto sm:h-8 sm:w-auto"><i data-tw-merge="" data-lucide="send" class="mr-1.5 h-3.5 w-3.5 stroke-[1.3]"></i>
+                                        Send Invitation</button>
                                 </div>
-                                <div class="single_plan d-flex align-items-center justify-content-between">
-                                    <h5 class="color_theme2 f_s_14 f_w_700 mb-0">Taxes</h5>
-                                    <span class="color_gray2 f_s_16 f_w_700">$14</span>
-                                </div>
-                                <div class="single_plan d-flex align-items-start justify-content-between">
+                            </div>
+                            <div class="mb-5 flex flex-col gap-5 border-b border-dashed border-slate-300/70 pb-5">
+                                <div class="flex items-center gap-3.5">
                                     <div>
-                                        <h5 class="color_theme2 f_s_14 f_w_700 mb-0">Extera</h5>
-                                        <p class="f_s_13 f_w_700">Netflix and other bills in this month.</p>
+                                        <div class="image-fit h-12 w-12 overflow-hidden rounded-full border-[3px] border-slate-200/70">
+                                            <img src="{{ asset('theme/dist/images/users/user1-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                        </div>
                                     </div>
-                                    <span class="color_gray2 f_s_16 f_w_700">$25</span>
-                                </div>
-                                <div class="total_blance mt_20 mb_10">
-                                    <span class="f_s_13 f_w_700 color_gray ">Total balance</span>
-                                    <div class="total_blance_inner d-flex align-items-center flex-wrap justify-content-between">
+                                    <div class="flex w-full flex-col gap-y-2.5 sm:flex-row sm:items-center">
                                         <div>
-                                            <span class="f_s_40 f_w_700 color_text_3 d-block">$3650</span>
-                                            <a class="badge_btn_5" href="#">+1235</a>
+                                            <div class="font-medium">Tom Hanks</div>
+                                            <div class="mt-0.5 text-xs text-slate-500">
+                                                tom.hanks@left4code.com
+                                            </div>
+                                        </div>
+                                        <div class="relative sm:ml-auto">
+                                            <i data-tw-merge="" data-lucide="settings" class="absolute inset-y-0 my-auto ml-2.5 h-3.5 w-3.5 stroke-[1.2]"></i>
+                                            <select data-tw-merge="" class="disabled:bg-slate-100 disabled:cursor-not-allowed disabled:dark:bg-darkmode-800/50 [&[readonly]]:bg-slate-100 [&[readonly]]:cursor-not-allowed [&[readonly]]:dark:bg-darkmode-800/50 transition duration-200 ease-in-out w-full border-slate-200 shadow-sm rounded-md px-3 focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus:border-primary focus:border-opacity-40 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 group-[.form-inline]:flex-1 bg-[length:15px_auto] py-1.5 pl-8 pr-2.5 text-xs sm:w-48">
+                                                <option value="Sales Manager">
+                                                    Sales Manager
+                                                </option>
+                                                <option value="Data Analyst">
+                                                    Data Analyst
+                                                </option>
+                                                <option value="Project Manager">
+                                                    Project Manager
+                                                </option>
+                                                <option value="Support Specialist">
+                                                    Support Specialist
+                                                </option>
+                                                <option value="Account Executive">
+                                                    Account Executive
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-3.5">
+                                    <div>
+                                        <div class="image-fit h-12 w-12 overflow-hidden rounded-full border-[3px] border-slate-200/70">
+                                            <img src="{{ asset('theme/dist/images/users/user5-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full flex-col gap-y-2.5 sm:flex-row sm:items-center">
+                                        <div>
+                                            <div class="font-medium">Brad Pitt</div>
+                                            <div class="mt-0.5 text-xs text-slate-500">
+                                                brad.pitt@left4code.com
+                                            </div>
+                                        </div>
+                                        <div class="relative sm:ml-auto">
+                                            <i data-tw-merge="" data-lucide="settings" class="absolute inset-y-0 my-auto ml-2.5 h-3.5 w-3.5 stroke-[1.2]"></i>
+                                            <select data-tw-merge="" class="disabled:bg-slate-100 disabled:cursor-not-allowed disabled:dark:bg-darkmode-800/50 [&[readonly]]:bg-slate-100 [&[readonly]]:cursor-not-allowed [&[readonly]]:dark:bg-darkmode-800/50 transition duration-200 ease-in-out w-full border-slate-200 shadow-sm rounded-md px-3 focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus:border-primary focus:border-opacity-40 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 group-[.form-inline]:flex-1 bg-[length:15px_auto] py-1.5 pl-8 pr-2.5 text-xs sm:w-48">
+                                                <option value="Sales Manager">
+                                                    Sales Manager
+                                                </option>
+                                                <option value="Data Analyst">
+                                                    Data Analyst
+                                                </option>
+                                                <option value="Project Manager">
+                                                    Project Manager
+                                                </option>
+                                                <option value="Support Specialist">
+                                                    Support Specialist
+                                                </option>
+                                                <option value="Account Executive">
+                                                    Account Executive
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-3.5">
+                                    <div>
+                                        <div class="image-fit h-12 w-12 overflow-hidden rounded-full border-[3px] border-slate-200/70">
+                                            <img src="{{ asset('theme/dist/images/users/user8-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full flex-col gap-y-2.5 sm:flex-row sm:items-center">
+                                        <div>
+                                            <div class="font-medium">Cate Blanchett</div>
+                                            <div class="mt-0.5 text-xs text-slate-500">
+                                                cate.blanchett@left4code.com
+                                            </div>
+                                        </div>
+                                        <div class="relative sm:ml-auto">
+                                            <i data-tw-merge="" data-lucide="settings" class="absolute inset-y-0 my-auto ml-2.5 h-3.5 w-3.5 stroke-[1.2]"></i>
+                                            <select data-tw-merge="" class="disabled:bg-slate-100 disabled:cursor-not-allowed disabled:dark:bg-darkmode-800/50 [&[readonly]]:bg-slate-100 [&[readonly]]:cursor-not-allowed [&[readonly]]:dark:bg-darkmode-800/50 transition duration-200 ease-in-out w-full border-slate-200 shadow-sm rounded-md px-3 focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus:border-primary focus:border-opacity-40 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 group-[.form-inline]:flex-1 bg-[length:15px_auto] py-1.5 pl-8 pr-2.5 text-xs sm:w-48">
+                                                <option value="Sales Manager">
+                                                    Sales Manager
+                                                </option>
+                                                <option value="Data Analyst">
+                                                    Data Analyst
+                                                </option>
+                                                <option value="Project Manager">
+                                                    Project Manager
+                                                </option>
+                                                <option value="Support Specialist">
+                                                    Support Specialist
+                                                </option>
+                                                <option value="Account Executive">
+                                                    Account Executive
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-3.5">
+                                    <div>
+                                        <div class="image-fit h-12 w-12 overflow-hidden rounded-full border-[3px] border-slate-200/70">
+                                            <img src="{{ asset('theme/dist/images/users/user3-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full flex-col gap-y-2.5 sm:flex-row sm:items-center">
+                                        <div>
+                                            <div class="font-medium">Leonardo DiCaprio</div>
+                                            <div class="mt-0.5 text-xs text-slate-500">
+                                                leonardo.dicaprio@left4code.com
+                                            </div>
+                                        </div>
+                                        <div class="relative sm:ml-auto">
+                                            <i data-tw-merge="" data-lucide="settings" class="absolute inset-y-0 my-auto ml-2.5 h-3.5 w-3.5 stroke-[1.2]"></i>
+                                            <select data-tw-merge="" class="disabled:bg-slate-100 disabled:cursor-not-allowed disabled:dark:bg-darkmode-800/50 [&[readonly]]:bg-slate-100 [&[readonly]]:cursor-not-allowed [&[readonly]]:dark:bg-darkmode-800/50 transition duration-200 ease-in-out w-full border-slate-200 shadow-sm rounded-md px-3 focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus:border-primary focus:border-opacity-40 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 group-[.form-inline]:flex-1 bg-[length:15px_auto] py-1.5 pl-8 pr-2.5 text-xs sm:w-48">
+                                                <option value="Sales Manager">
+                                                    Sales Manager
+                                                </option>
+                                                <option value="Data Analyst">
+                                                    Data Analyst
+                                                </option>
+                                                <option value="Project Manager">
+                                                    Project Manager
+                                                </option>
+                                                <option value="Support Specialist">
+                                                    Support Specialist
+                                                </option>
+                                                <option value="Account Executive">
+                                                    Account Executive
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-3.5">
+                                    <div>
+                                        <div class="image-fit h-12 w-12 overflow-hidden rounded-full border-[3px] border-slate-200/70">
+                                            <img src="{{ asset('theme/dist/images/users/user4-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full flex-col gap-y-2.5 sm:flex-row sm:items-center">
+                                        <div>
+                                            <div class="font-medium">Angelina Jolie</div>
+                                            <div class="mt-0.5 text-xs text-slate-500">
+                                                angelina.jolie@left4code.com
+                                            </div>
+                                        </div>
+                                        <div class="relative sm:ml-auto">
+                                            <i data-tw-merge="" data-lucide="settings" class="absolute inset-y-0 my-auto ml-2.5 h-3.5 w-3.5 stroke-[1.2]"></i>
+                                            <select data-tw-merge="" class="disabled:bg-slate-100 disabled:cursor-not-allowed disabled:dark:bg-darkmode-800/50 [&[readonly]]:bg-slate-100 [&[readonly]]:cursor-not-allowed [&[readonly]]:dark:bg-darkmode-800/50 transition duration-200 ease-in-out w-full border-slate-200 shadow-sm rounded-md px-3 focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus:border-primary focus:border-opacity-40 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 group-[.form-inline]:flex-1 bg-[length:15px_auto] py-1.5 pl-8 pr-2.5 text-xs sm:w-48">
+                                                <option value="Sales Manager">
+                                                    Sales Manager
+                                                </option>
+                                                <option value="Data Analyst">
+                                                    Data Analyst
+                                                </option>
+                                                <option value="Project Manager">
+                                                    Project Manager
+                                                </option>
+                                                <option value="Support Specialist">
+                                                    Support Specialist
+                                                </option>
+                                                <option value="Account Executive">
+                                                    Account Executive
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>Share invitation link</div>
+                                <div class="mt-3 flex gap-3">
+                                    <input data-tw-merge="" type="text" value="https://left4code.com/invitation?token=abcdefgh12345678" placeholder="everyone@gmail.com" disabled="disabled" class="disabled:bg-slate-100 disabled:cursor-not-allowed dark:disabled:bg-darkmode-800/50 dark:disabled:border-transparent [&[readonly]]:bg-slate-100 [&[readonly]]:cursor-not-allowed [&[readonly]]:dark:bg-darkmode-800/50 [&[readonly]]:dark:border-transparent transition duration-200 ease-in-out w-full text-sm border-slate-200 shadow-sm rounded-md placeholder:text-slate-400/90 focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus:border-primary focus:border-opacity-40 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 dark:placeholder:text-slate-500/80 [&[type='file']]:border file:mr-4 file:py-2 file:px-4 file:rounded-l-md file:border-0 file:border-r-[1px] file:border-slate-100/10 file:text-sm file:font-semibold file:bg-slate-100 file:text-slate-500/70 hover:file:bg-200 group-[.form-inline]:flex-1 group-[.input-group]:rounded-none group-[.input-group]:[&:not(:first-child)]:border-l-transparent group-[.input-group]:first:rounded-l group-[.input-group]:last:rounded-r group-[.input-group]:z-10 text-slate-500">
+                                    <button data-tw-merge="" data-placement="top" title="Copy link" class="transition duration-200 border shadow-sm inline-flex items-center justify-center py-2 px-3 rounded-md font-medium cursor-pointer focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus-visible:outline-none dark:focus:ring-slate-700 dark:focus:ring-opacity-50 [&:hover:not(:disabled)]:bg-opacity-90 [&:hover:not(:disabled)]:border-opacity-90 [&:not(button)]:text-center disabled:opacity-70 disabled:cursor-not-allowed border-secondary text-slate-500 dark:border-darkmode-100/40 dark:text-slate-300 [&:hover:not(:disabled)]:bg-secondary/20 [&:hover:not(:disabled)]:dark:bg-darkmode-100/10 tooltip"><i data-tw-merge="" data-lucide="copy" class="h-4 w-4 stroke-[1.5]"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 flex flex-col gap-y-10 xl:col-span-6">
+                    <div>
+                        <div class="flex flex-col gap-y-3 md:h-10 md:flex-row md:items-center">
+                            <div class="text-base font-medium">Team Collaboration</div>
+                        </div>
+                        <div class="box box--stacked mt-3.5 p-5">
+                            <div class="mb-5 border-b border-dashed border-slate-300/70 pb-5">
+                                <div>Collaboration progress report</div>
+                                <div class="mt-3 flex w-full items-center rounded-lg border border-success/10 bg-success/10 px-3 py-3 text-success">
+                                    <i data-tw-merge="" data-lucide="clock" class="stroke-[1] w-5 h-5 mr-2"></i>
+                                    Project kick-off date:
+                                    <div class="ml-2">Tue Aug 2021</div>
+                                </div>
+                                <div class="mt-5 flex flex-col gap-4">
+                                    <div class="flex flex-col items-center gap-y-2 sm:flex-row">
+                                        <div class="text-slate-500 sm:w-36">Project Name</div>
+                                        <div class="flex items-center font-medium sm:ml-5 sm:h-7">
+                                            E-commerce Enchantment: Winter Wonders - 2043
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col items-center gap-y-2 sm:flex-row">
+                                        <div class="text-slate-500 sm:w-36">Project Manager</div>
+                                        <div class="flex h-5 items-center sm:ml-5">
+                                            <div class="image-fit zoom-in box h-6 w-6 overflow-hidden rounded-full border-2 border-slate-200/70">
+                                                <img src="{{ asset('theme/dist/images/users/user5-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                            </div>
+                                            <div class="ml-2.5 underline decoration-primary/30 decoration-dotted underline-offset-[3px]">
+                                                Brad Pitt
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col items-center gap-y-2 sm:flex-row">
+                                        <div class="text-slate-500 sm:w-36">
+                                            Creative Director
+                                        </div>
+                                        <div class="flex items-center sm:ml-5 sm:h-7">
+                                            <div class="image-fit zoom-in box h-6 w-6 overflow-hidden rounded-full border-2 border-slate-200/70">
+                                                <img src="{{ asset('theme/dist/images/users/user8-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                            </div>
+                                            <div class="ml-2.5 underline decoration-primary/30 decoration-dotted underline-offset-[3px]">
+                                                Cate Blanchett
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex w-full items-center rounded-lg border bg-slate-50 px-3 py-3 font-medium text-slate-500">
+                                    <i data-tw-merge="" data-lucide="kanban-square" class="w-5 h-5 mr-2 stroke-[1.3]"></i>
+                                    Project Details for Team Members
+                                    <div data-tw-merge="" data-tw-placement="bottom-end" class="dropdown relative ml-auto"><a data-tw-toggle="dropdown" aria-expanded="false" href="javascript:;" class="cursor-pointer"><i data-tw-merge="" data-lucide="more-vertical" class="stroke-[1] w-5 h-5 fill-slate-500/70 stroke-slate-500/70"></i>
+                                        </a>
+                                        <div data-transition="" data-selector=".show" data-enter="transition-all ease-linear duration-150" data-enter-from="absolute !mt-5 invisible opacity-0 translate-y-1" data-enter-to="!mt-1 visible opacity-100 translate-y-0" data-leave="transition-all ease-linear duration-150" data-leave-from="!mt-1 visible opacity-100 translate-y-0" data-leave-to="absolute !mt-5 invisible opacity-0 translate-y-1" class="dropdown-menu absolute z-[9999] hidden">
+                                            <div data-tw-merge="" class="dropdown-content rounded-md border-transparent bg-white p-2 shadow-[0px_3px_10px_#00000017] dark:border-transparent dark:bg-darkmode-600 w-40">
+                                                <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="copy" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                    Copy Link</a>
+                                                <a class="cursor-pointer flex items-center p-2 transition duration-300 ease-in-out rounded-md hover:bg-slate-200/60 dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item"><i data-tw-merge="" data-lucide="trash" class="stroke-[1] mr-2 h-4 w-4"></i>
+                                                    Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 flex flex-col gap-3">
+                                    <div class="relative flex flex-col items-center gap-5 rounded-lg border border-dashed border-slate-300/60 p-3 sm:flex-row">
+                                        <div class="absolute right-0 top-0 mr-3 mt-3">
+                                            <input data-tw-merge="" checked="" type="checkbox" class="transition-all duration-100 ease-in-out shadow-sm border-slate-200 cursor-pointer rounded focus:ring-4 focus:ring-offset-0 focus:ring-primary focus:ring-opacity-20 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 [&[type='radio']]:checked:bg-primary [&[type='radio']]:checked:border-primary [&[type='radio']]:checked:border-opacity-10 [&[type='checkbox']]:checked:bg-primary [&[type='checkbox']]:checked:border-primary [&[type='checkbox']]:checked:border-opacity-10 [&:disabled:not(:checked)]:bg-slate-100 [&:disabled:not(:checked)]:cursor-not-allowed [&:disabled:not(:checked)]:dark:bg-darkmode-800/50 [&:disabled:checked]:opacity-70 [&:disabled:checked]:cursor-not-allowed [&:disabled:checked]:dark:bg-darkmode-800/50 border">
                                         </div>
                                         <div>
-                                            <div>
-                                                <a class="badge_btn_6 mb_15" href="#">Today</a>
-                                            </div>
-                                            <div>
-                                                <a class="badge_btn_7" href="#">This week</a>
+                                            <div class="image-fit h-24 w-40 rounded-md border-[3px] border-slate-200/70">
+                                                <img class="rounded-md saturate-[0.7]" src="{{ asset('theme/dist/images/projects/project5-400x400.jpg') }}" alt="Tailwise - Admin Dashboard Template">
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="white_card card_height_100 mb_20">
-                        <div class="date_picker_wrapper">
-                            <div class="default-datepicker">
-                                <div class="datepicker-here" data-language='en'></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="white_card card_height_100  mb_20">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Top Global Sales</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body pb-0">
-                            <div id="world-map-markers" class="dashboard_w_map"></div>
-                            <div class="row justify-content-center mt_30">
-                                <div class="col-lg-9">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="single_progressbar">
-                                                <h6 class="f_s_14 f_w_400">USA</h6>
-                                                <div id="bar4" class="barfiller">
-                                                    <div class="tipWrap">
-                                                        <span class="tip"></span>
+                                        <div class="-mt-1">
+                                            <a class="block text-center font-medium sm:text-left" href="#">
+                                                Email Campaign Templates
+                                            </a>
+                                            <div class="mt-2.5 flex items-center text-xs text-slate-500 dark:text-slate-500">
+                                                <i data-tw-merge="" data-lucide="link" class="mr-1.5 h-2.5 w-2.5 stroke-[2]"></i>
+                                                <a class="truncate underline decoration-slate-300 decoration-dotted underline-offset-[3px]" href="#">
+                                                    http://left4code.com/share/pAsXxVJWej
+                                                </a>
+                                            </div>
+                                            <div class="mt-4 flex items-center justify-center sm:justify-start">
+                                                <div class="flex">
+                                                    <div class="image-fit zoom-in h-6 w-6">
+                                                        <img data-placement="top" title="Brad Pitt" src="{{ asset('theme/dist/images/users/user5-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
                                                     </div>
-                                                    <span class="fill" data-percentage="81"></span>
+                                                    <div class="image-fit zoom-in -ml-2.5 h-6 w-6">
+                                                        <img data-placement="top" title="Meryl Streep" src="{{ asset('theme/dist/images/users/user2-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                    <div class="image-fit zoom-in -ml-2.5 h-6 w-6">
+                                                        <img data-placement="top" title="Tom Hanks" src="{{ asset('theme/dist/images/users/user1-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="single_progressbar">
-                                                <h6>Australia</h6>
-                                                <div id="bar5" class="barfiller">
-                                                    <div class="tipWrap">
-                                                        <span class="tip"></span>
-                                                    </div>
-                                                    <span class="fill" data-percentage="58"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="single_progressbar">
-                                                <h6>Brazil</h6>
-                                                <div id="bar6" class="barfiller">
-                                                    <div class="tipWrap">
-                                                        <span class="tip"></span>
-                                                    </div>
-                                                    <span class="fill" data-percentage="42"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="single_progressbar">
-                                                <h6>Latvia</h6>
-                                                <div id="bar7" class="barfiller">
-                                                    <div class="tipWrap">
-                                                        <span class="tip"></span>
-                                                    </div>
-                                                    <span class="fill" data-percentage="55"></span>
+                                                <div class="ml-3 text-xs text-slate-500">
+                                                    4+ Members
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="white_card card_height_100 mb_30 ">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Monthly Invoices</h3>
-                                </div>
-                                <div class="header_more_tool">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            <i class="ti-more-alt"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-eye"></i> Action </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-trash"></i> Delete </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fas fa-edit"></i> Edit </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-printer"></i> Print </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i> Download </a>
+                                    <div class="relative flex flex-col items-center gap-5 rounded-lg border border-dashed border-slate-300/60 p-3 sm:flex-row">
+                                        <div class="absolute right-0 top-0 mr-3 mt-3">
+                                            <input data-tw-merge="" checked="" type="checkbox" class="transition-all duration-100 ease-in-out shadow-sm border-slate-200 cursor-pointer rounded focus:ring-4 focus:ring-offset-0 focus:ring-primary focus:ring-opacity-20 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 [&[type='radio']]:checked:bg-primary [&[type='radio']]:checked:border-primary [&[type='radio']]:checked:border-opacity-10 [&[type='checkbox']]:checked:bg-primary [&[type='checkbox']]:checked:border-primary [&[type='checkbox']]:checked:border-opacity-10 [&:disabled:not(:checked)]:bg-slate-100 [&:disabled:not(:checked)]:cursor-not-allowed [&:disabled:not(:checked)]:dark:bg-darkmode-800/50 [&:disabled:checked]:opacity-70 [&:disabled:checked]:cursor-not-allowed [&:disabled:checked]:dark:bg-darkmode-800/50 border">
+                                        </div>
+                                        <div>
+                                            <div class="image-fit h-24 w-40 rounded-md border-[3px] border-slate-200/70">
+                                                <img class="rounded-md saturate-[0.7]" src="{{ asset('theme/dist/images/projects/project6-400x400.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                            </div>
+                                        </div>
+                                        <div class="-mt-1">
+                                            <a class="block text-center font-medium sm:text-left" href="#">
+                                                Market Research Report
+                                            </a>
+                                            <div class="mt-2.5 flex items-center text-xs text-slate-500 dark:text-slate-500">
+                                                <i data-tw-merge="" data-lucide="link" class="mr-1.5 h-2.5 w-2.5 stroke-[2]"></i>
+                                                <a class="truncate underline decoration-slate-300 decoration-dotted underline-offset-[3px]" href="#">
+                                                    http://left4code.com/share/NW3xffHlxO
+                                                </a>
+                                            </div>
+                                            <div class="mt-4 flex items-center justify-center sm:justify-start">
+                                                <div class="flex">
+                                                    <div class="image-fit zoom-in h-6 w-6">
+                                                        <img data-placement="top" title="Angelina Jolie" src="{{ asset('theme/dist/images/users/user4-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                    <div class="image-fit zoom-in -ml-2.5 h-6 w-6">
+                                                        <img data-placement="top" title="Jennifer Lawrence" src="{{ asset('theme/dist/images/users/user6-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                    <div class="image-fit zoom-in -ml-2.5 h-6 w-6">
+                                                        <img data-placement="top" title="Leonardo DiCaprio" src="{{ asset('theme/dist/images/users/user3-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                </div>
+                                                <div class="ml-3 text-xs text-slate-500">
+                                                    4+ Members
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="relative flex flex-col items-center gap-5 rounded-lg border border-dashed border-slate-300/60 p-3 sm:flex-row">
+                                        <div class="absolute right-0 top-0 mr-3 mt-3">
+                                            <input data-tw-merge="" checked="" type="checkbox" class="transition-all duration-100 ease-in-out shadow-sm border-slate-200 cursor-pointer rounded focus:ring-4 focus:ring-offset-0 focus:ring-primary focus:ring-opacity-20 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 [&[type='radio']]:checked:bg-primary [&[type='radio']]:checked:border-primary [&[type='radio']]:checked:border-opacity-10 [&[type='checkbox']]:checked:bg-primary [&[type='checkbox']]:checked:border-primary [&[type='checkbox']]:checked:border-opacity-10 [&:disabled:not(:checked)]:bg-slate-100 [&:disabled:not(:checked)]:cursor-not-allowed [&:disabled:not(:checked)]:dark:bg-darkmode-800/50 [&:disabled:checked]:opacity-70 [&:disabled:checked]:cursor-not-allowed [&:disabled:checked]:dark:bg-darkmode-800/50 border">
+                                        </div>
+                                        <div>
+                                            <div class="image-fit h-24 w-40 rounded-md border-[3px] border-slate-200/70">
+                                                <img class="rounded-md saturate-[0.7]" src="{{ asset('theme/dist/images/projects/project7-400x400.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                            </div>
+                                        </div>
+                                        <div class="-mt-1">
+                                            <a class="block text-center font-medium sm:text-left" href="#">
+                                                Video Advertisements
+                                            </a>
+                                            <div class="mt-2.5 flex items-center text-xs text-slate-500 dark:text-slate-500">
+                                                <i data-tw-merge="" data-lucide="link" class="mr-1.5 h-2.5 w-2.5 stroke-[2]"></i>
+                                                <a class="truncate underline decoration-slate-300 decoration-dotted underline-offset-[3px]" href="#">
+                                                    http://left4code.com/share/z8knzyTKHz
+                                                </a>
+                                            </div>
+                                            <div class="mt-4 flex items-center justify-center sm:justify-start">
+                                                <div class="flex">
+                                                    <div class="image-fit zoom-in h-6 w-6">
+                                                        <img data-placement="top" title="Angelina Jolie" src="{{ asset('theme/dist/images/users/user4-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                    <div class="image-fit zoom-in -ml-2.5 h-6 w-6">
+                                                        <img data-placement="top" title="Meryl Streep" src="{{ asset('theme/dist/images/users/user2-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                    <div class="image-fit zoom-in -ml-2.5 h-6 w-6">
+                                                        <img data-placement="top" title="Brad Pitt" src="{{ asset('theme/dist/images/users/user5-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                </div>
+                                                <div class="ml-3 text-xs text-slate-500">
+                                                    4+ Members
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="relative flex flex-col items-center gap-5 rounded-lg border border-dashed border-slate-300/60 p-3 sm:flex-row">
+                                        <div class="absolute right-0 top-0 mr-3 mt-3">
+                                            <input data-tw-merge="" type="checkbox" class="transition-all duration-100 ease-in-out shadow-sm border-slate-200 cursor-pointer rounded focus:ring-4 focus:ring-offset-0 focus:ring-primary focus:ring-opacity-20 dark:bg-darkmode-800 dark:border-transparent dark:focus:ring-slate-700 dark:focus:ring-opacity-50 [&[type='radio']]:checked:bg-primary [&[type='radio']]:checked:border-primary [&[type='radio']]:checked:border-opacity-10 [&[type='checkbox']]:checked:bg-primary [&[type='checkbox']]:checked:border-primary [&[type='checkbox']]:checked:border-opacity-10 [&:disabled:not(:checked)]:bg-slate-100 [&:disabled:not(:checked)]:cursor-not-allowed [&:disabled:not(:checked)]:dark:bg-darkmode-800/50 [&:disabled:checked]:opacity-70 [&:disabled:checked]:cursor-not-allowed [&:disabled:checked]:dark:bg-darkmode-800/50 border">
+                                        </div>
+                                        <div>
+                                            <div class="image-fit h-24 w-40 rounded-md border-[3px] border-slate-200/70">
+                                                <img class="rounded-md saturate-[0.7]" src="{{ asset('theme/dist/images/projects/project8-400x400.jpg') }}" alt="Tailwise - Admin Dashboard Template">
+                                            </div>
+                                        </div>
+                                        <div class="-mt-1">
+                                            <a class="block text-center font-medium sm:text-left" href="#">
+                                                Product Brochures
+                                            </a>
+                                            <div class="mt-2.5 flex items-center text-xs text-slate-500 dark:text-slate-500">
+                                                <i data-tw-merge="" data-lucide="link" class="mr-1.5 h-2.5 w-2.5 stroke-[2]"></i>
+                                                <a class="truncate underline decoration-slate-300 decoration-dotted underline-offset-[3px]" href="#">
+                                                    http://left4code.com/share/BQ8zpIdhQa
+                                                </a>
+                                            </div>
+                                            <div class="mt-4 flex items-center justify-center sm:justify-start">
+                                                <div class="flex">
+                                                    <div class="image-fit zoom-in h-6 w-6">
+                                                        <img data-placement="top" title="Meryl Streep" src="{{ asset('theme/dist/images/users/user2-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                    <div class="image-fit zoom-in -ml-2.5 h-6 w-6">
+                                                        <img data-placement="top" title="Tom Hanks" src="{{ asset('theme/dist/images/users/user1-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                    <div class="image-fit zoom-in -ml-2.5 h-6 w-6">
+                                                        <img data-placement="top" title="Jennifer Lawrence" src="{{ asset('theme/dist/images/users/user6-50x50.jpg') }}" alt="Tailwise - Admin Dashboard Template" class="tooltip cursor-pointer rounded-full shadow-[0px_0px_0px_2px_#fff,_1px_1px_5px_rgba(0,0,0,0.32)] dark:shadow-[0px_0px_0px_2px_#3f4865,_1px_1px_5px_rgba(0,0,0,0.32)]">
+                                                    </div>
+                                                </div>
+                                                <div class="ml-3 text-xs text-slate-500">
+                                                    4+ Members
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body QA_section">
-                            <div class="QA_table ">
-                                <table class="table lms_table_active2 p-0">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Customer</th>
-                                            <th scope="col">Product</th>
-                                            <th scope="col">Invoice</th>
-                                            <th scope="col">Price</th>
-                                            <th scope="col">Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/1.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Customer</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">Sunglass</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">$350</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_1">Pending</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/2.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Customer</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">Sunglass</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">$350</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_2">Paid</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/3.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Customer</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">Sunglass</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">$350</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_3">Shipped</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/4.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Customer</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">Sunglass</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">$350</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_3">Shipped</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/5.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Customer</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">Sunglass</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">$350</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_2">Paid</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/6.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Customer</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">Sunglass</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">$350</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_4 ">Delivered</a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="white_card card_height_100 mb_20 ">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Top Selling Product</h3>
-                                </div>
-                                <div class="header_more_tool">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            <i class="ti-more-alt"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-eye"></i> Action </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-trash"></i> Delete </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fas fa-edit"></i> Edit </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-printer"></i> Print </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i> Download </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body QA_section">
-                            <div class="QA_table ">
-                                <table class="table lms_table_active2 p-0">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Product 1</th>
-                                            <th scope="col">Price</th>
-                                            <th scope="col">Discount</th>
-                                            <th scope="col">Sold</th>
-                                            <th scope="col">Source</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_1.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Product 1</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">$564</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">60</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="text_color_1">Google</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_2.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Product 1</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">$564</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">60</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="text_color_2">Direct</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_3.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Product 1</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">$564</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">60</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="text_color_1">Email</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_4.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Product 1</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">$564</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">60</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="text_color_3">Refferal</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_5.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Product 1</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">$564</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">60</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="text_color_2">Direct</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_34 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_6.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_14 f_w_400 color_text_1">Product 1</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_2">$564</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_4">60</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="text_color_3">Refferal</a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="white_card card_height_100 mb_20 ">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Popular Products</h3>
-                                </div>
-                                <div class="header_more_tool">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            <i class="ti-more-alt"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-eye"></i> Action </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-trash"></i> Delete </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fas fa-edit"></i> Edit </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="ti-printer"></i> Print </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i> Download </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body QA_section">
-                            <div class="QA_table ">
-                                <table class="table lms_table_active2 p-0">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Product</th>
-                                            <th scope="col">Product Code</th>
-                                            <th scope="col">Price</th>
-                                            <th scope="col">Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_62 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_big.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_20 f_w_400 color_text_3">Unique Watch</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_4">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">$99.00</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_1">354 sold</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_62 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_big_1.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_20 f_w_400 color_text_3">Wireless Headphone</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_4">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">$99.00</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_1">354 sold</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="customer d-flex align-items-center">
-                                                    <div class="thumb_62 mr_15 mt-0">
-                                                        <img class="img-fluid radius_50" src="{{ asset('themes/img/customers/pro_big_2.png') }}" alt="">
-                                                    </div>
-                                                    <span class="f_s_20 f_w_400 color_text_3">Sport Shoe</span>
-                                                </div>
-                                            </td>
-                                            <td class="f_s_14 f_w_400 color_text_4">#DE2548</td>
-                                            <td class="f_s_14 f_w_400 color_text_3">$99.00</td>
-                                            <td class="f_s_14 f_w_400 text-end">
-                                                <a href="#" class="badge_btn_1">354 sold</a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <a href="#" class="badge_btn_semi mt_30 ml_15">View All</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="white_card card_height_100 mb_20 ">
-                        <div class="white_card_header">
-                            <div class="box_header m-0">
-                                <div class="main-title">
-                                    <h3 class="m-0">Market valus</h3>
-                                </div>
-                                <div class="single_wrap_input">
-                                    <select class="nice_Select2 wide" name="" id="">
-                                        <option value="1">year</option>
-                                        <option value="1">month</option>
-                                        <option value="1">day</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white_card_body QA_section">
-                            <div class="radar-chart">
-                                <div id="marketchart"></div>
                             </div>
                         </div>
                     </div>
